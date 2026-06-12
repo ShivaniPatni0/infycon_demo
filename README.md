@@ -19,13 +19,7 @@ A beautifully crafted **Spend Summary** Flutter app built as a take-home assignm
 ---
 
 ## 🖼️ Screenshots
-
-> Add screenshots here after running on emulator.
-> Suggested: `screenshots/home.png`, `screenshots/categories.png`, `screenshots/transactions.png`, `screenshots/fab_sheet.png`
-
-| Home | Categories | Transactions | Add Sheet |
-|---|---|---|---|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* | *(screenshot)* |
+for app Emulator screenshot ,checkout assets/images folder i have added.
 
 ---
 
@@ -115,11 +109,3 @@ dependencies:
 ```
 
 ---
-
-## 🎨 Design Decisions
-
-1. **Dark violet palette** — Fintech apps look premium in dark mode. Chose `#0F0E17` (near-black with a violet tint) over flat black to feel warm rather than sterile.
-2. **Gradient hero card** — The monthly spend card uses a 3-stop `violet → indigo → cyan` gradient as the visual anchor. Everything else is quiet.
-3. **Inter typeface** — Neutral, high-legibility, widely used in fintech. The `fontWeight: w800` + `letterSpacing: -2` pairing on the amount creates a display-style number that reads fast.
-4. **Electric cyan accent (`#00E5C9`)** — Used for Travel category and secondary highlights. Contrasts clearly against the violet without clashing.
-5. **Staggered animations** — Each section fades and slides in 100ms after the previous, guiding the eye top-to-bottom through the hierarchy.
